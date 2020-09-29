@@ -1,0 +1,80 @@
+.navbar {
+    margin-top: 50px;
+    margin-left: 145px;
+    margin-right: 145px;
+    display: flex;
+    
+}
+
+.navbar > h3 {
+    margin-right: 145px;
+    margin-top: -10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.main {
+    display: flex;
+    margin-left: 145px;
+    margin-right: 145px;
+}
+
+.main_words {
+    margin-top: 160px;
+}
+
+.main_words > h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 42px;
+}
+
+h1:nth-child(2) {
+    margin-top: -20px;
+}
+
+.main_words > p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: #3e3e3e;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 40px;
+    height: 45px;
+    width: 125px;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+button:nth-child(4) {
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    margin-right: 25px;
+    border: hidden;
+}
+
+button:nth-child(5) {
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    margin-left: 25px;
+    border: 1px solid #000;
+}
+
+.main_image {
+   position: relative;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    margin-top: 90px;
+    margin-left: 100px;
+    margin-right: -50px;
+}

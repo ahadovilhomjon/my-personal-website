@@ -1,0 +1,11 @@
+.icons {
+    display: flex;
+    
+    
+}
+
+ion-icon {
+   margin-left: 20px;
+    font-size: 20px;
+    --ionicon-stroke-width: 16px;
+}

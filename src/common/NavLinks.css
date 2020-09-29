@@ -1,0 +1,29 @@
+.navlinks {
+    margin-right: auto;
+}
+
+.navlinks_list {
+    display: flex;
+    flex-direction: row;
+}
+
+.navlinks_list > li{
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+
+}
+
+.navlinks_list:first-child {
+    border-bottom: 1px solid #000;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 42px;
+}
+
+.navlinks_list > li:not(:last-child) {
+    margin-right: 50px;
+
+}
